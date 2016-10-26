@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Ignacio Ojanguren</title>
+	<link rel="stylesheet" type="text/css" href="css/styles3.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<link href="https://fonts.googleapis.com/css?family=Arvo|Catamaran" rel="stylesheet">
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/events.js"></script>
+	
+</head>
+<body>
+	<div class="header">
+		<div class="col-md-4">
+			<h2>Studio</h2>
+		</div>
+		<div class="col-md-4"></div>
+		<div class="col-md-1 linkTitle">
+			<a href="#"><h5>Home</h5></a>
+		</div>
+		<div class="col-md-1 linkTitle">
+			<a href="#" id="aboutMe" onclick="scrollPageAboutMe()"><h5>About Me</h5></a>
+		</div>
+		<div class="col-md-1 linkTitle">
+			<a href="#" onclick="scrollInternship()"><h5>Internships</h5></a>
+		</div>
+		<div class="col-md-1 linkTitle">
+			<a href="#" onclick="contactMe()"><h5>Contact</h5></a>
+		</div>
+	</div>
+	<div class="containers">
+		<div class="content" id="content">
+			<script>	
+			    var h = window.innerHeight;
+			    document.getElementById("content").style.height = h+"px";
+			</script>
+			<div class="topContent">
+				<div class="descriptionContent">
+					<div class="col-md-3"></div>
+					<div class="col-md-6">
+						<h1>Ignacio Ojanguren</h1>
+						<h3>Student & Junior Software Developer</h3>
+						<div class="buttonMore" onclick="scrollPageAboutMe()">Learn More</div>
+					</div>
+					<div class="col-md-3"></div>
+				</div>
+			</div>
+		</div>
+		<div class="description" id="description">
+			<div class="aboutMe">
+				<div class="row">
+					
+				<div class="col-md-4 leftAboutMe">
+					<img class="myImage" width="200" src="images/ignacioojanguren.png">
+					<h1>About Me</h1>
+					<h4>Studies and Hobbies</h4>
+				</div>
+				<div class="col-md-8 rightAboutMe">
+					<div class="col-md-12">
+						<div class="containerAboutMe">
+							<div class="col-md-3"></div>
+							<div class="col-md-4">
+								<h3>Studies</h3>
+							</div>
+							<div class="col-md-5"></div>
+							<div class="row">
+								<div class="col-md-6">
+									<h4>Bachelor's Degree</h4>
+									<p>Degree: Computer Science.</p>
+									<p>School: Boston University. (2016-2018)</p>
+									<h4>Associate's Degree</h4>
+									<p>Degree: Development of Web Applications.</p>
+									<p>School: IES Clara del Rey. (2012-2015)</p>
+								</div>		
+								<div class="col-md-6">
+									<h4>High School:</h4>
+									<p>Attended: San José del Parque de Madrid.</p>
+									<p>I specialized in Sciences.</p>
+									<h4>Middle School:</h4>
+									<p>Attended: Lycee Français de Madrid.</p>
+								</div>
+							</div>
+							<!---->
+							<div class="col-md-3"></div>
+							<div class="col-md-4">
+								<h3>Hobbies</h3>
+							</div>
+							<div class="col-md-5"></div>
+							<div class="col-md-12">
+								<h4>Volunteering:</h4>
+								<p>MIT Media Lab, Virtual Reality Hackathon 7-10 October</p>
+								<h4>Sports:</h4>
+								<p>I love Surfing and Soccer. I also enjoy practicing many other sports.</p>
+								<h4>Music:</h4>
+								<p>I enjoy listening to music. I was a bass guitar player in a band, and also a DJ.</p>
+								<h4>Technology:</h4>
+								<p>I love following the lasts updates in technology. I follow different magazines like TechCrunch, Wired, and also tech Youtube channels.</p>
+							</div>	
+
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		<div class="internship" id="internship">
+			<div class="internship-title">
+				<h1>Internships</h1>
+			</div>
+			<div class="internshipBox">
+				<div class="row">
+				<div class="col-md-4">
+					<div class="col-md-2"></div>
+					<div class="col-md-10">
+							<h3>Unisys</h3>
+							<p>Madrid - Spain</p>
+							<p>1 February 2016 - 30 May 2016</p>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="col-md-1"></div>
+					<div class="col-md-11">
+							<h6>&nbsp;</h6>
+							<p>Junior Software Developer, where I worked with Iberia. <br/> I had to implement new functionalities to ResIber software, using Fortran. I also used Python to retrieve the information from ResIber, so I could proceed with analisys of data, and represent the data in Tableau's Software.</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="separation"></div>
+			<div class="internshipBox">
+				<div class="row">
+				<div class="col-md-4">
+					<div class="col-md-2"></div>
+					<div class="col-md-10">
+							<h3>Earthfaves AG</h3>
+							<p>Saarbücken - Germany</p>
+							<p>1 April 2015 - 30 June 2015</p>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="col-md-1"></div>
+					<div class="col-md-11">
+							<h6>&nbsp;</h6>
+							<p>Intern Software Developer. <br/> I worked with both Back-End and Front-End development. I tested and fixed bugs in the Back-End using PHP. For Front-End I designed using HTML, CSS and JQuery. I also use Javascript to manage the information obtained from the Back-End.</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="separation"></div>
+			<div class="internshipBox">
+				<div class="col-md-4">
+					<div class="col-md-2"></div>
+					<div class="col-md-10">
+							<h3>MyJour</h3>
+							<p>Alphen Aan Den Rijn - The Netherlands</p>
+							<p>1 June 2014 - 1 August 2014</p>
+					</div>
+				</div>
+				<div class="row">
+				<div class="col-md-8">
+					<div class="col-md-1"></div>
+					<div class="col-md-11">
+							<h4>&nbsp;</h4>
+							<p>Summer Internship.<br/>First summer internship. In this internship at MyJour I worked with the framework Django using Python.
+							I was instructed to develop unit test cases to find bugs in the code.</p>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		<div class="projects">
+			<div class="row">
+			<div class="col-md-12">
+				<div class="titleProjects col-md-12">
+					<h1>My Projects</h1>
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-1"></div>
+						<div class="col-md-10 imageProject">
+							<h2>100</h2>
+						</div>
+						<div class="col-md-1"></div>
+					</div>
+					<div class="row">
+						<div class="col-md-1"></div>
+						<div class="col-md-10 descriptionProject">
+							<p>&nbsp;</p>
+							<p>This is a game I used to play when I was in Middle School.</p>
+							<p>I developed this game the first year I began studying Development of Web Applications.</p>
+							<p>The technology used was:</p>
+							<ul>
+								<li>HTML & CSS</li>
+								<li>Javascript</li>
+							</ul>
+							<a href="http://www.ignacioojanguren.com/100/"><div class="buttonMore">Play</div></a>
+							<p>&nbsp;</p>
+						</div>
+						<div class="col-md-1"></div>
+					</div>
+					
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-1"></div>
+						<div class="col-md-10 imageProject">
+							<h2>Biti</h2>
+						</div>
+						<div class="col-md-1"></div>
+					</div>
+					<div class="row">
+						<div class="col-md-1"></div>
+						<div class="col-md-10 descriptionProject">
+							<p>&nbsp;</p>
+							<p>This app was the final project for my degree in Development of Web Applications.</p>
+							<p>I decided to use a language I already learned in a previous Internship.</p>
+							<p>This app is not online, however the functionality is an app, which allows you to challenge
+							you friends through bets.</p>
+							<p>Technology used:</p>
+							<ul>
+								<li>HTML & CSS.</li>
+								<li>Javascript and JQuery.</li>
+								<li>Python with Django's framework.</li>
+								<li>SQL to manage the Database Queries.</li>
+							</ul>
+							<p>&nbsp;</p>
+						</div>
+						<div class="col-md-1"></div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="contactMe" id="contactMe">
+
+			<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-5">
+				<h4><a href="mailto:ojanguren01@gmail.com">Contact Me</a></h4>
+			</div>
+			<div class="col-md-5">
+				<h4>By Ignacio Ojanguren ©<span id="setYears"></span></h4>
+			</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		/*var d2 = window.innerHeight;
+		if(d2<750){
+			document.getElementById("description").style.height = d2+"px";
+		}*/
+		
+		var d = new Date();
+		var year = d.getFullYear();
+		console.log(year);
+		document.getElementById("setYears").innerHTML= year;
+	</script>
+	
+</body>
+</html>
