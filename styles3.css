@@ -1,0 +1,212 @@
+.buttonMore {
+  color: white;
+  background-color: #FFAA4F;
+  height: auto;
+  width: 120px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2em;
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center; }
+
+.buttonMore:hover {
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75); }
+
+.buttonMore:active {
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75); }
+
+/* FONT FAMILIES*/
+/* COLORS */
+/* MARGINS AND PADDINGS*/
+/* WIDTHS AND HEIGHTS */
+body {
+  margin: 0px;
+  font-family: "Catamaran", sans-serif; }
+
+a {
+  text-decoration: none !important; }
+
+a:hover {
+  text-decoration: none !important; }
+
+.row {
+  width: 100%;
+  margin: 0px !important; }
+
+.headerPhone{
+    display:none;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  background-color: #2B2C31; }
+  .header h2 {
+    font-family: "Arvo", serif;
+    margin: 0px;
+    padding: 10px 10px 10px 20px;
+    color: #FFAA4F; }
+  .header .linkTitle {
+    height: 100%;
+    text-align: center; }
+    .header .linkTitle h5 {
+      font-size: 1.2em;
+      margin-bottom: 0px;
+      margin-top: 18px; }
+  .header a {
+    color: #FFFFFF;
+    cursor: pointer; }
+
+.containers {
+  position: relative;
+  min-width: 100%;
+  min-height: 100%; }
+
+.content {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/mountain.jpg");
+  background-size: cover;
+  z-index: 100; }
+
+.topContent {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999; }
+  .topContent .descriptionContent {
+    margin-top: 200px;
+    text-align: center; }
+    .topContent .descriptionContent h3, .topContent .descriptionContent h1 {
+      color: #FFFFFF;
+      font-family: "Arvo", serif; }
+
+.description {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 100%; }
+  .description .aboutMe {
+    position: relative; }
+  .description .leftAboutMe {
+    text-align: center; }
+    .description .leftAboutMe .myImage {
+      border-radius: 50%;
+      margin-top: 100px; }
+    .description .leftAboutMe h1 {
+      color: #FFAA4F;
+      width: 100%;
+      font-family: "Arvo", serif; }
+    .description .leftAboutMe h4 {
+      color: #4A4A4B;
+      text-decoration: underline;
+      font-family: "Arvo", serif; }
+  .description .rightAboutMe {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+    .description .rightAboutMe .containerAboutMe h3 {
+      text-align: center; }
+    .description .rightAboutMe .containerAboutMe p {
+      color: #676767; }
+
+.internship {
+  position: relative;
+  float: left;
+  min-height: 66.66667%;
+  width: 100%;
+  background-color: #E6E6E6; }
+  .internship .separation {
+    width: 86.95652%;
+    border-top: 1px solid #959595;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .internship .internship-title {
+    color: #FFAA4F;
+    text-align: center;
+    font-family: "Arvo", serif;
+    margin-bottom: 50px;
+    margin-top: 50px; }
+  .internship .internshipBox {
+    min-height: 100px;
+    z-index: 999;
+    margin-bottom: 50px;
+    text-align: justify; }
+
+.projects {
+  position: relative;
+  float: left;
+  min-height: 100%;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .projects a {
+    text-decoration: none; }
+  .projects .titleProjects {
+    color: #FFAA4F;
+    text-align: center;
+    font-family: "Arvo", serif;
+    margin-bottom: 50px; }
+  .projects .imageProject {
+    color: #FFAA4F;
+    text-align: center;
+    font-family: "Arvo", serif;
+    border: 1px solid #ccc; }
+  .projects .descriptionProject {
+    min-height: 100px;
+    border: 1px solid #eee; }
+
+.contactMe {
+  position: relative;
+  float: left;
+  min-height: 33.33333%;
+  width: 100%;
+  background-color: #2B2C31; }
+  .contactMe h4 {
+    font-family: "Arvo", serif;
+    color: white;
+    text-align: center; }
+  .contactMe h5, .contactMe h3 {
+    color: white; }
+  .contactMe .contactinfo {
+    margin: 10px; }
+    .contactMe .contactinfo input {
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      background-color: #f8f8f8;
+      resize: none; }
+    .contactMe .contactinfo textarea {
+      width: 100%;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      background-color: #f8f8f8;
+      resize: none; }
+    .contactMe .contactinfo .comment {
+      height: 100px; }
+    .contactMe .contactinfo #sendComment {
+      margin-top: 5px;
+      margin-right: 14px; }
+
+/*# sourceMappingURL=styles3.css.map */
+
+@media screen and (max-width: 995px) and (min-width: 320px)  {
+    .header .headerLaptop{
+        display: none !important;
+    }
+    .header .headerPhone{
+        display: inline;
+        margin-top:10px;
+    }
+}
