@@ -19,19 +19,19 @@
 		<div class="headerLaptop">
 			<div class="col-md-4"></div>
 			<div class="col-md-1 linkTitle">
-				<a href="#"><h5>Home</h5></a>
+				<a onclick="scrollBackHome()"><h5>Home</h5></a>
 			</div>
 			<div class="col-md-1 linkTitle">
-				<a href="#" id="aboutMe" onclick="scrollPageAboutMe()"><h5>About Me</h5></a>
+				<a id="aboutMe" onclick="scrollPageAboutMe()"><h5>About Me</h5></a>
 			</div>
 			<div class="col-md-1 linkTitle">
-				<a href="#" onclick="scrollInternship()"><h5>Internships</h5></a>
+				<a onclick="scrollInternship()"><h5>Internships</h5></a>
 			</div>
 			<div class="col-md-1 linkTitle">
-				<a href="#" onclick="contactMe()"><h5>Contact</h5></a>
+				<a onclick="contactMe()"><h5>Contact</h5></a>
 			</div>
 		</div>
-		<div class="col-xs-4"></div>
+		<div class="col-xs-4" ></div>
 		<div class="headerPhone col-xs-3">
 			<div class="col-md-6"></div>
 			<div class="col-md-6">
@@ -39,16 +39,16 @@
 					<button class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown">
 						<span class="glyphicon glyphicon-option-vertical"></span></button>
 					<ul class="dropdown-menu dropdown-menu-right" >
-						<li><a href="#"><h5>Home</h5></a></li>
-						<li><a href="#" onclick="scrollPageAboutMe()"><h5>About Me</h5></a></li>
-						<li><a href="#" onclick="scrollInternship()"><h5>Internships</h5></a></li>
-						<li><a href="#" onclick="contactMe()"><h5>Contact</h5></a></li>
+						<li><a onclick="scrollBackHome()"><h5>Home</h5></a></li>
+						<li><a onclick="scrollPageAboutMe()"><h5>About Me</h5></a></li>
+						<li><a onclick="scrollInternship()"><h5>Internships</h5></a></li>
+						<li><a onclick="contactMe()"><h5>Contact</h5></a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="containers">
+	<div class="containers" id="topPage">
 		<div class="content" id="content">
 			<script>	
 			    var h = window.innerHeight;
@@ -256,7 +256,7 @@
 			<div class="row">
 			<div class="col-md-1"></div>
 			<div class="col-md-5">
-				<h4><a href="mailto:ojanguren01@gmail.com">Contact Me</a></h4>
+				<h4><a href="mailto:ojanguren01@gmail.com"><u>Contact Me</u></a></h4>
 			</div>
 			<div class="col-md-5">
 				<h4>By Ignacio Ojanguren ©<span id="setYears"></span></h4>
