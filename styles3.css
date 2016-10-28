@@ -13,9 +13,9 @@
   text-align: center; }
 
 .buttonMore:hover {
-  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75); }
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);}
 
 .buttonMore:active {
   -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
@@ -162,10 +162,15 @@ a:hover {
     color: #FFAA4F;
     text-align: center;
     font-family: "Arvo", serif;
-    border: 1px solid #ccc; }
+    border: 1px solid #ccc;
+    border-bottom:1px solid #BCBCBC;
+    background:#eee;
+    margin-top:5px;
+    border-radius:4px 4px 0 0;}
   .projects .descriptionProject {
     min-height: 100px;
-    border: 1px solid #eee; }
+    border: 1px solid #ccc;
+    border-radius: 0 0 4px 4px;}
 
 .contactMe {
   position: relative;
@@ -209,4 +214,8 @@ a:hover {
         display: inline;
         margin-top:10px;
     }
+    .content {
+      background-image: url("../images/mountainPhone.png");
+      background-size: cover;
+      z-index: 100; }
 }
