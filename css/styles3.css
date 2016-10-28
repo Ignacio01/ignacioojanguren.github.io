@@ -13,9 +13,9 @@
   text-align: center; }
 
 .buttonMore:hover {
-  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75); }
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);}
 
 .buttonMore:active {
   -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
@@ -40,6 +40,9 @@ a:hover {
   width: 100%;
   margin: 0px !important; }
 
+.headerPhone{
+    display:none;
+}
 .header {
   position: fixed;
   width: 100%;
@@ -84,10 +87,53 @@ a:hover {
   z-index: 999; }
   .topContent .descriptionContent {
     margin-top: 200px;
-    text-align: center; }
+    text-align: center;}
     .topContent .descriptionContent h3, .topContent .descriptionContent h1 {
       color: #FFFFFF;
       font-family: "Arvo", serif; }
+
+.socialNetworks{
+    position:relative;
+    height:55px;
+    margin-top:60px;
+}
+
+.github .imageGithub{
+    width:75px;
+    height:75px;
+    background-image:url("../images/githubHover.png");
+    background-size: 100% 100%;
+    border-radius:50% 50%;
+    margin:auto;
+    cursor:pointer;
+}
+.github .imageGithub:hover{
+    background-image:url("../images/github.png");
+}
+
+.imageEmail{
+    width:75px;
+    height:75px;
+    background-image:url("../images/emailHover.png");
+    background-size: 100% 100%;
+    border-radius:50% 50%;
+    margin:auto;
+    cursor:pointer;
+}
+.imageEmail:hover{
+    background-image:url("../images/email.png");}
+
+.imageLinkedIn{
+    width:75px;
+    height:75px;
+    margin:auto;
+    background-image:url("../images/linkedInHover.png");
+    background-size: 100% 100%;
+    border-radius:50% 50%;
+    cursor:pointer;
+}
+.imageLinkedIn:hover{
+    background-image:url("../images/linkedIn.png");}
 
 .description {
   position: relative;
@@ -159,10 +205,15 @@ a:hover {
     color: #FFAA4F;
     text-align: center;
     font-family: "Arvo", serif;
-    border: 1px solid #ccc; }
+    border: 1px solid #ccc;
+    border-bottom:1px solid #BCBCBC;
+    background:#eee;
+    margin-top:5px;
+    border-radius:4px 4px 0 0;}
   .projects .descriptionProject {
     min-height: 100px;
-    border: 1px solid #eee; }
+    border: 1px solid #ccc;
+    border-radius: 0 0 4px 4px;}
 
 .contactMe {
   position: relative;
@@ -197,3 +248,20 @@ a:hover {
       margin-right: 14px; }
 
 /*# sourceMappingURL=styles3.css.map */
+
+@media screen and (max-width: 995px) and (min-width: 320px)  {
+    .header .headerLaptop{
+        display: none !important;
+    }
+    .header .headerPhone{
+        display: inline;
+        margin-top:10px;
+    }
+    .content {
+      background-image: url("../images/mountainPhone.png");
+      background-size: cover;
+      z-index: 100; }
+  .topContent .descriptionContent {
+      margin-top: 150px;
+      text-align: center;}
+}
