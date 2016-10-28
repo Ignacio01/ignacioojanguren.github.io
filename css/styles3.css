@@ -40,9 +40,6 @@ a:hover {
   width: 100%;
   margin: 0px !important; }
 
-.headerPhone{
-    display:none;
-}
 .header {
   position: fixed;
   width: 100%;
@@ -200,13 +197,3 @@ a:hover {
       margin-right: 14px; }
 
 /*# sourceMappingURL=styles3.css.map */
-
-@media screen and (max-width: 995px) and (min-width: 320px)  {
-    .header .headerLaptop{
-        display: none !important;
-    }
-    .header .headerPhone{
-        display: inline;
-        margin-top:10px;
-    }
-}
