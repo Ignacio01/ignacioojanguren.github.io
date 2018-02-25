@@ -87,10 +87,53 @@ a:hover {
   z-index: 999; }
   .topContent .descriptionContent {
     margin-top: 200px;
-    text-align: center; }
+    text-align: center;}
     .topContent .descriptionContent h3, .topContent .descriptionContent h1 {
       color: #FFFFFF;
       font-family: "Arvo", serif; }
+
+.socialNetworks{
+    position:relative;
+    height:55px;
+    margin-top:60px;
+}
+
+.github .imageGithub{
+    width:75px;
+    height:75px;
+    background-image:url("../images/githubHover.png");
+    background-size: 100% 100%;
+    border-radius:50% 50%;
+    margin:auto;
+    cursor:pointer;
+}
+.github .imageGithub:hover{
+    background-image:url("../images/github.png");
+}
+
+.imageEmail{
+    width:75px;
+    height:75px;
+    background-image:url("../images/emailHover.png");
+    background-size: 100% 100%;
+    border-radius:50% 50%;
+    margin:auto;
+    cursor:pointer;
+}
+.imageEmail:hover{
+    background-image:url("../images/email.png");}
+
+.imageLinkedIn{
+    width:75px;
+    height:75px;
+    margin:auto;
+    background-image:url("../images/linkedInHover.png");
+    background-size: 100% 100%;
+    border-radius:50% 50%;
+    cursor:pointer;
+}
+.imageLinkedIn:hover{
+    background-image:url("../images/linkedIn.png");}
 
 .description {
   position: relative;
@@ -218,4 +261,7 @@ a:hover {
       background-image: url("../images/mountainPhone.png");
       background-size: cover;
       z-index: 100; }
+  .topContent .descriptionContent {
+      margin-top: 150px;
+      text-align: center;}
 }
